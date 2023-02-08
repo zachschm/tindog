@@ -1,0 +1,388 @@
+#title
+{
+    background-color: #ff4c68;
+}
+#title{
+    color: white;
+    padding-bottom: 5%;
+}
+h1
+{
+    font-family: "Montserrat-Black";
+    font-size: 5rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+h2
+{
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+#title .container-fluid
+{
+    padding: 3% 10%;
+}
+
+#title button
+{
+    margin-top: 12%;
+}
+
+body{
+    font-family: "Montserrat-Black", sans-serif;
+}
+
+nav
+{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 5%;
+}
+
+#collapse navbar-collapse
+{
+    justify-content: end;
+}
+
+.navbar-brand
+{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: normal;
+
+}
+.nav-link dropdown-toggle
+{
+    border-right: 0;
+}
+.nav-link
+{
+    color: rgba(211, 211, 211, 0.85);
+    margin: auto 8%;
+    font-size: 1.4rem;
+}
+.Motto
+{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#apple {
+    margin-left: 0;
+    margin-right: 3%;
+}
+#titlepic
+{
+    /*text-align: center;*/
+}
+.dog-container
+{
+    text-align: -moz-center;
+}
+.phone{
+    transform: rotate(30deg);
+    width: 60%;
+    position: relative;
+    margin-bottom: -40%;
+
+}
+
+#features
+{
+    margin: 15%;
+    text-align: center;
+    color: #8f8f8f;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+#features i
+{
+    color: #ef8172;
+    font-size: 5.0rem;
+}
+#features i:hover
+{
+    color: #F17588FF;
+}
+#features h3
+{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+#features p
+{
+    font-size: 1.4rem;
+    padding: 0 10%;
+}
+
+
+#testimonials
+{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+
+}
+#press
+{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+#press img
+{
+    width: 60%;
+    margin: 2% 5% 5.5% 5%;
+}
+#pricing
+{
+    text-align: center;
+}
+.pricing-title
+{
+    padding-top: 5%;
+    font-weight: lighter;
+}
+.card-col
+{
+    padding: 4%;
+}
+.card-header
+{
+    background-color: #ef8172;
+}
+.card-header,h3
+{
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+}
+.card
+{
+    border-color: #ef8172;
+}
+.card h2
+{
+    font-size: 3.2rem;
+}
+.pricing-sub
+{
+    color: gray;
+    font-size: 1.5rem;
+}
+.cardbtn
+{
+    background-color: white;
+}
+.cardbtn:hover
+{
+    background-color: #ef8172;
+}
+.cardbtn2
+{
+    background-color: #ef8172;
+}
+
+/*cta - final good bye and download push*/
+
+.bye
+{
+    background-color: #ff4c68;
+    text-align: center;
+    margin-top: 4%;
+}
+.bye h2
+{
+    margin: 5% 20% 4% 20%;
+    font-size: 4rem;
+    color: white;
+}
+.bye button
+{
+    margin-top: 0;
+    margin-bottom: 7%;
+}
+
+/*footer*/
+
+.foot
+{
+    background-color: white;
+    text-align: center;
+}
+.foot i
+{
+    color: #ef8172;
+    margin-top: 3%;
+    font-size: 3rem;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+}
+.foot i:hover
+{
+    color: #ff4c68;
+}
+.foot p
+{
+    margin-bottom: 2%;
+    color: gray;
+}
+
+@media (max-width: 1500px)
+{
+    .motto-container
+    {
+        text-align: left;
+    }
+    .Motto
+    {
+        font-size: 4rem;
+    }
+    .dog-container
+    {
+        text-align: left;
+    }
+    #features
+    {
+        position: relative;
+        z-index: 1;
+    }
+    #testimonials h2
+    {
+        font-size: 2rem;
+    }
+    #testimonials img
+    {
+        width: 30%;
+    }
+    #titlepic
+    {
+        position: static;
+        transform: rotate(0);
+    }
+    .pricing-title
+    {
+        padding-top: 7%;
+        font-weight: lighter;
+    }
+
+}
+
+@media (max-width: 1000px)
+{
+    .motto-container
+    {
+        text-align: center;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .Motto
+    {
+        font-size: 4rem;
+    }
+    .phone
+    {
+        position: static;
+        transform: rotate(0);
+        padding-bottom: 10%;
+        width: 30%;
+    }
+
+    .motto-container button
+    {
+        margin-top: 8%;
+    }
+
+    .dog-container
+    {
+        text-align: center;
+        margin-top: 12%;
+    }
+    #features
+    {
+        position: relative;
+        z-index: 0;
+    }
+    #features p
+    {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .check-col2
+    {
+        margin-top: 20%;
+
+    }
+    .check-col3
+    {
+        margin-top: 20%;
+
+    }
+    #testimonials img
+    {
+        width: 25%;
+    }
+    #titlepic
+    {
+        position: static;
+        transform: rotate(0);
+    }
+    #press img
+    {
+        width: 35%;
+    }
+    .pricing-title
+    {
+        padding-top: 10%;
+        font-weight: lighter;
+    }
+    .bye h2
+    {
+        font-size: 3rem;
+    }
+
+}
+
+
+@media (max-width: 600px)
+{
+    #testimonials img
+    {
+        width: 15%;
+    }
+    #title
+    {
+        text-align: center;
+    }
+    #titlepic
+    {
+        position: static;
+        transform: rotate(0);
+    }
+    .bye h2
+    {
+        font-size: 2.5rem;
+    }
+}
+
+
+
+
